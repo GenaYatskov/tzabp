@@ -1,0 +1,14 @@
+.titleBlock{
+    display: flex;
+    justify-Content: space-between;
+    flex-Direction: row;
+    gap: 10px;
+    padding: 0px 0px 10px 0px;
+}
+
+@media (max-width: 440px) {
+    .titleBlock {
+      flex-direction: column;
+      justify-Content: start;
+    }
+  }

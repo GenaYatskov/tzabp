@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background: #252D41;
+}
+
+*::-webkit-scrollbar {
+    width: 4px;            /* ширина всей полосы прокрутки */
+    height: 4px;
+}
+  
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background: #ffffff62;   /* цвет бегунка */
+    border-radius: 12px;       /* округлось бегунка */
+}
+
+*::-webkit-scrollbar-corner{
+    background: #161E31;
+}

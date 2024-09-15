@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.input{
+    position: relative;
+    overflow: visible;
+    width: 33%;
+}
+  
+@media (max-width: 800px) {
+    .form {
+        flex-direction: column;
+    }
+
+    .input {
+        width: 100%;
+    }
+}
+  

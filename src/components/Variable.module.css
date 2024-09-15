@@ -1,0 +1,13 @@
+.description{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    color: white;
+    white-space: pre-wrap;         
+    word-break: break-word;        
+    overflow-wrap: break-word;
+}
